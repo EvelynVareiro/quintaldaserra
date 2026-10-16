@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça o Quintal da Serra, uma hospedagem acolhedora em meio à natureza de Lavrinhas, São Paulo.">
+    <meta name="theme-color" content="#f5f6ef">
+    <title>Quintal da Serra | Hospedagem em Lavrinhas</title>
+    <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+    <script>
+      tailwind = { config: { theme: { extend: {} } } };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preload" href="assets/fonts/young-serif.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body class="min-h-screen">
+
+    <header class="site-header" id="site-header">
+      <a href="#inicio" class="brand" data-close-menu>Quintal da Serra</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-controls="main-navigation" aria-expanded="false">
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+      <nav id="main-navigation" aria-label="Navegação principal">
+        <a href="#espaco" data-close-menu>O Quintal</a>
+        <a href="#acomodacoes" data-close-menu>Acomodações</a>
+        <a href="#experiencias" data-close-menu>Experiências</a>
+        <a href="#lazer" data-close-menu>Lazer</a>
+        <a href="#lavrinhas" data-close-menu>Lavrinhas</a>
+        <a href="#galeria" data-close-menu>Galeria</a>
+        <a class="nav-cta" href="#contato" data-close-menu>Consultar disponibilidade</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero page-width">
+        <div class="hero-text">
+          <h1>Seu tempo, do seu jeito, aqui na serra.</h1>
+          <p class="hero-copy">Hospedagem, lazer e natureza em Capela do Jacu, Lavrinhas. Chegue, desacelere e fique o quanto der vontade.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#espaco">Conheça o Quintal</a>
+            <a class="text-link" href="#experiencias">Ver as experiências</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <img src="assets/foto1.jpg" alt="Chalés coloridos entre jardim e palmeiras em Capela do Jacu">
+          <figcaption>Capela do Jacu<br>Lavrinhas, SP</figcaption>
+        </figure>
+      </section>
+
+      <section id="espaco" class="intro page-width">
+        <div class="intro-copy">
+          <h2>Mais do que uma hospedagem: um lugar pra viver.</h2>
+          <p class="body-large">Em Capela do Jacu, Lavrinhas, o Quintal da Serra reúne natureza, tranquilidade, hospedagem e diferentes formas de aproveitar o tempo.</p>
+          <a class="text-link" href="#experiencias">Escolha sua experiência</a>
+        </div>
+      </section>
+
+      <section id="experiencias" class="experience-options page-width">
+        <div class="section-heading">
+          <div>
+            <h2>Como você quer viver o Quintal?</h2>
+          </div>
+          <p class="heading-note">Cada visita pode ser diferente. Disponibilidade e condições sob consulta.</p>
+        </div>
+        <div class="experience-grid">
+          <a class="experience-card" href="#contato">
+            <div class="card-media"><img src="assets/foto3.jpg" alt="Imagem provisória para chalés" loading="lazy"></div>
+            <div class="card-text">
+              <p class="card-kicker">Chalés</p>
+              <h3>Conforto e sossego pra descansar no meio do verde.</h3>
+              <p class="card-note">Disponibilidade sob consulta</p>
+            </div>
+          </a>
+          <a class="experience-card" href="#contato">
+            <div class="card-media"><img src="assets/foto2.jpg" alt="Imagem provisória para cabanas" loading="lazy"></div>
+            <div class="card-text">
+              <p class="card-kicker">Cabanas</p>
+              <h3>Um jeito diferente de ficar pertinho da natureza.</h3>
+              <p class="card-note">Disponibilidade sob consulta</p>
+            </div>
+          </a>
+          <a class="experience-card" href="#contato">
+            <div class="card-media"><img src="assets/foto4.webp" alt="Imagem provisória para camping" loading="lazy"></div>
+            <div class="card-text">
+              <p class="card-kicker">Camping</p>
+              <h3>Pra quem gosta de dormir ao ar livre.</h3>
+              <p class="card-note">Disponibilidade sob consulta</p>
+            </div>
+          </a>
+          <a class="experience-card" href="#contato">
+            <div class="card-media"><img src="assets/foto5.webp" alt="Imagem provisória para piquenique" loading="lazy"></div>
+            <div class="card-text">
+              <p class="card-kicker">Piquenique</p>
+              <h3>Uma tarde na grama, com a paisagem de companhia.</h3>
+              <p class="card-note">Disponibilidade sob consulta</p>
+            </div>
+          </a>
+          <a class="experience-card" href="#contato">
+            <div class="card-media"><img src="assets/foto6.jpg" alt="Imagem provisória para lazer" loading="lazy"></div>
+            <div class="card-text">
+              <p class="card-kicker">Lazer</p>
+              <h3>Estrutura e atividades pra ir além da hospedagem.</h3>
+              <p class="card-note">Disponibilidade sob consulta</p>
+            </div>
+          </a>
+        <div class="experience-aside"><p>Cada visita pode ser diferente. Conte como você imagina a sua e a gente vê o que está disponível.</p><a class="text-link" href="#contato">Consultar disponibilidade</a></div>
+        </div>
+      </section>
+
+      <section id="acomodacoes" class="stays page-width">
+        <div class="section-heading">
+          <div>
+            <h2>Escolha seu espaço.</h2>
+          </div>
+          <p class="heading-note">Do conforto dos chalés à experiência mais próxima da natureza, consulte as opções disponíveis.</p>
+        </div>
+        <article class="stay">
+          <figure class="stay-photo"><img src="assets/foto3.jpg" alt="Chalé verde com rede na varanda" loading="lazy"><figcaption>Conteúdo demonstrativo</figcaption></figure>
+          <div class="stay-info">
+            <p class="stay-name">Chalés</p>
+            <h3>Conforto e tranquilidade para alguns dias no Quintal.</h3>
+            <a class="text-link" href="#contato">Conhecer</a>
+          </div>
+        </article>
+        <article class="stay">
+          <figure class="stay-photo"><img src="assets/foto2.jpg" alt="Cabanas de madeira com telhado laranja" loading="lazy"><figcaption>Conteúdo demonstrativo</figcaption></figure>
+          <div class="stay-info">
+            <p class="stay-name">Cabanas</p>
+            <h3>Detalhes e disponibilidade sob consulta.</h3>
+            <a class="text-link" href="#contato">Conhecer</a>
+          </div>
+        </article>
+        <article class="stay">
+          <figure class="stay-photo"><img src="assets/foto4.webp" alt="Barraca azul sob uma árvore" loading="lazy"><figcaption>Conteúdo demonstrativo</figcaption></figure>
+          <div class="stay-info">
+            <p class="stay-name">Camping</p>
+            <h3>Pra quem prefere dormir de barraca. Condições a confirmar.</h3>
+            <a class="text-link" href="#contato">Conhecer</a>
+          </div>
+        </article>
+      </section>
+
+      <section id="lazer" class="leisure">
+        <div class="page-width leisure-grid">
+          <div>
+            <h2>Por aqui, o dia também acontece.</h2>
+            <p class="body-large">Além de descansar, o Quintal da Serra oferece um espaço para aproveitar a natureza, o lazer e o tempo junto de quem importa.</p>
+          </div>
+          <ul class="leisure-list">
+            <li class="leisure-item"><span>Piscina</span><small>A confirmar</small></li>
+            <li class="leisure-item"><span>Quadras e espaços de lazer</span><small>A confirmar</small></li>
+            <li class="leisure-item"><span>Jardim e natureza</span><small>A confirmar</small></li>
+            <li class="leisure-item"><span>Áreas ao ar livre</span><small>A confirmar</small></li>
+            <li class="leisure-item"><span>Espaços de convivência</span><small>A confirmar</small></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="amenities">
+        <div class="page-width">
+          <div class="section-heading">
+            <div><h2>O essencial pra ficar bem.</h2></div>
+            <p class="heading-note">Uma seleção de comodidades conhecidas para tornar os dias mais gostosos.</p>
+          </div>
+          <ul class="amenities-grid">
+            <li class="amenity"><h3>Piscina</h3><p>Um convite para relaxar e aproveitar o tempo.</p></li>
+            <li class="amenity"><h3>Wi-Fi gratuito</h3><p>Conecte-se quando quiser.</p></li>
+            <li class="amenity"><h3>Estacionamento</h3><p>Mais praticidade para chegar e ficar.</p></li>
+            <li class="amenity"><h3>Ar-condicionado</h3><p>Conforto em todas as estações.</p></li>
+            <li class="amenity"><h3>Café da manhã</h3><p>Comece o dia com calma e sabor.</p></li>
+            <li class="amenity"><h3>Jardim e natureza</h3><p>Paisagens para respirar fundo.</p></li>
+            <li class="amenity"><h3>Varanda</h3><p>Um espaço para contemplar sem pressa.</p></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="experience-band">
+        <img src="assets/foto2.jpg" alt="Cabanas de madeira sob o céu azul" loading="lazy">
+        <div class="experience-overlay"></div>
+        <div class="experience-content page-width">
+          <h2>O luxo de<br>não ter pressa.</h2>
+          <p>Um descanso a dois, uma tarde ao ar livre, tempo em família ou simplesmente a vontade de estar.</p>
+          <a class="button button-light" href="#contato">Planejar meu momento</a>
+        </div>
+      </section>
+
+      <section id="galeria" class="gallery page-width" aria-labelledby="galeria-titulo">
+        <div class="gallery-intro"><h2 id="galeria-titulo">Um pouco do Quintal.</h2></div>
+        <button class="g g-a" type="button" data-lightbox-src="assets/foto2.jpg" data-lightbox-alt="Cabanas de madeira com telhado laranja" aria-label="Ampliar foto: cabanas"><img src="assets/foto2.jpg" alt="Cabanas de madeira com telhado laranja" loading="lazy"></button>
+        <button class="g g-b" type="button" data-lightbox-src="assets/foto3.jpg" data-lightbox-alt="Chalé verde com rede na varanda" aria-label="Ampliar foto: chalé"><img src="assets/foto3.jpg" alt="Chalé verde com rede na varanda" loading="lazy"></button>
+        <button class="g g-c" type="button" data-lightbox-src="assets/foto4.webp" data-lightbox-alt="Barraca azul sob uma árvore" aria-label="Ampliar foto: camping"><img src="assets/foto4.webp" alt="Barraca azul sob uma árvore" loading="lazy"></button>
+        <button class="g g-d" type="button" data-lightbox-src="assets/foto1.jpg" data-lightbox-alt="Chalés coloridos entre jardim e palmeiras" aria-label="Ampliar foto: chalés"><img src="assets/foto1.jpg" alt="Chalés coloridos entre jardim e palmeiras" loading="lazy"></button>
+        <button class="g g-e" type="button" data-lightbox-src="assets/foto5.webp" data-lightbox-alt="Piquenique na grama, com cestas e garrafas térmicas" aria-label="Ampliar foto: piquenique"><img src="assets/foto5.webp" alt="Piquenique na grama, com cestas e garrafas térmicas" loading="lazy"></button>
+        <div class="g-f"><button class="g " type="button" data-lightbox-src="assets/foto6.jpg" data-lightbox-alt="Piscina com os chalés ao fundo" aria-label="Ampliar foto: piscina"><img src="assets/foto6.jpg" alt="Piscina com os chalés ao fundo" loading="lazy"></button><p>Fotos reais e categorias oficiais serão adicionadas na versão final.</p></div>
+      </section>
+
+      <section id="lavrinhas" class="region page-width">
+        <div class="region-art"><svg class="hills" viewBox="0 0 520 460" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><circle cx="410" cy="92" r="34" fill="#F0B923"/><path d="M0 300C80 230 160 250 240 280S400 230 520 270V460H0Z" fill="#B5CFA4"/><path d="M0 350C100 290 200 330 290 340S440 300 520 330V460H0Z" fill="#78A663"/><path d="M0 410C120 370 240 400 340 395S470 380 520 395V460H0Z" fill="#3F7A4A"/></svg><div class="plank"><span class="place-name">Capela do Jacu</span><span class="place-sub">Lavrinhas · SP</span></div></div>
+        <div class="region-copy">
+          <h2>A serra também é seu quintal.</h2>
+          <p class="body-large">Além do Quintal, Lavrinhas convida a descobrir a natureza, as paisagens e os atrativos da região. <strong>Explore no seu ritmo.</strong></p>
+          <p class="placeholder-note">Atrativos, distâncias e como chegar: informações a confirmar.</p>
+        </div>
+      </section>
+
+      <section class="reviews page-width">
+        <div class="section-heading">
+          <div><h2>Quem passa por aqui, recomenda.</h2></div>
+          <p class="heading-note">★★★★★<br><span>[NOTA REAL] · avaliações reais serão inseridas</span></p>
+        </div>
+        <div class="reviews-grid">
+          <blockquote><p>[DEPOIMENTO REAL]</p><footer>[NOME DO HÓSPEDE]</footer></blockquote>
+          <blockquote><p>[DEPOIMENTO REAL]</p><footer>[NOME DO HÓSPEDE]</footer></blockquote>
+          <blockquote><p>[DEPOIMENTO REAL]</p><footer>[NOME DO HÓSPEDE]</footer></blockquote>
+        </div>
+      </section>
+
+      <section class="instagram page-width">
+        <div class="instagram-intro">
+          <h2>Veja mais do Quintal.</h2>
+          <p class="body-large">Acompanhe as novidades e descubra um pouco do que acontece por aqui.</p>
+          <a class="text-link" href="#contato">Seguir no Instagram</a>
+        </div>
+        <div class="instagram-grid"><img src="assets/foto4.webp" alt="Barraca de camping" loading="lazy"><img src="assets/foto5.webp" alt="Piquenique na grama" loading="lazy"><img src="assets/foto3.jpg" alt="Chalé com rede na varanda" loading="lazy"></div>
+      </section>
+
+      <section id="contato" class="contact">
+        <div class="page-width contact-grid">
+          <div>
+            <h2>Seu próximo momento começa aqui.</h2>
+            <p class="contact-lead">Escolha como você quer viver o Quintal da Serra e consulte as opções disponíveis.</p>
+            <div class="contact-links">
+              <button type="button" data-open-notice><i data-lucide="phone" aria-hidden="true"></i> [WHATSAPP OFICIAL]</button>
+              <button type="button" data-open-notice><i data-lucide="camera" aria-hidden="true"></i> [INSTAGRAM OFICIAL]</button>
+            </div>
+          </div>
+          <form id="contact-form">
+            <label>Seu nome<input required type="text" name="nome" autocomplete="name" placeholder="Como podemos chamar você?"></label>
+            <label>Mensagem<textarea rows="3" name="mensagem" placeholder="Conte um pouco sobre o seu momento (opcional)"></textarea></label>
+            <button class="button button-light" type="submit">Consultar disponibilidade</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="location page-width">
+        <div>
+          <h2>Venha conhecer.</h2>
+          <p class="body-large">Capela do Jacu · Lavrinhas, São Paulo</p>
+          <p class="placeholder-note">[ENDEREÇO COMPLETO]<br>Mapa e link de acesso: a confirmar.</p>
+        </div>
+        <div class="location-art">
+          <i data-lucide="map-pin" aria-hidden="true"></i>
+          <span>Capela do Jacu<br>Lavrinhas · SP</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="page-width footer-inner">
+        <div>
+          <a href="#inicio" class="brand footer-brand">Quintal da Serra</a>
+          <p>Um cantinho para descansar,<br>respirar e aproveitar.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Rodapé">
+          <a href="#espaco">O Quintal</a>
+          <a href="#acomodacoes">Acomodações</a>
+          <a href="#experiencias">Experiências</a>
+          <a href="#lazer">Lazer</a>
+          <a href="#lavrinhas">Lavrinhas</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <div class="footer-place"><i data-lucide="map-pin" aria-hidden="true"></i> Capela do Jacu · Lavrinhas, SP</div>
+      </div>
+      <div class="page-width footer-bottom"><span>© 2026 Quintal da Serra</span><span>Protótipo comercial · informações a confirmar</span></div>
+    </footer>
+
+    <button class="whatsapp-float" type="button" data-open-notice aria-label="Falar com o Quintal da Serra"><i data-lucide="phone" aria-hidden="true"></i></button>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Galeria ampliada" hidden>
+      <button class="lightbox-close" type="button" data-close-lightbox aria-label="Fechar galeria"><i data-lucide="x" aria-hidden="true"></i></button>
+      <button class="lightbox-arrow left" type="button" data-lightbox-previous aria-label="Imagem anterior"><i data-lucide="chevron-left" aria-hidden="true"></i></button>
+      <img id="lightbox-image" src="" alt="">
+      <button class="lightbox-arrow right" type="button" data-lightbox-next aria-label="Próxima imagem"><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+    </div>
+
+    <div class="notice-backdrop" id="notice" role="dialog" aria-modal="true" aria-label="Informação do protótipo" hidden>
+      <div class="notice-modal">
+        <button class="notice-close" type="button" data-close-notice aria-label="Fechar"><i data-lucide="x" aria-hidden="true"></i></button>
+        <h2>Consulta demonstrativa</h2>
+        <p>Em uma versão final, esta consulta poderá ser enviada diretamente para o WhatsApp ou sistema de reservas do Quintal da Serra.</p>
+        <button class="button button-primary" type="button" data-close-notice>Entendi</button>
+      </div>
+    </div>
+  </body>
+</html>
